@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+   
+    background: black;
+   
+   }
+  
+ .gradient-text {
+   background: linear-gradient(to right, #6d28d9, #d946ef, #9d4edd); 
+   background-clip: text; 
+   -webkit-background-clip: text; 
+   -webkit-text-fill-color: transparent; 
+}
+.nav{
+ @apply fixed
+}
+
+.mobile-nav{
+     @apply  fixed top-[53px] left-0  w-full h-80  bg-slate-700 text-center;
+}  
+
