@@ -1,4 +1,5 @@
 import image from "../assets/my.png"
+import image1 from "../assets/1.png"
 import { useTypewriter, Cursor} from 'react-simple-typewriter'
 
 export default function Home() {
@@ -23,7 +24,7 @@ const [typeEffect] = useTypewriter({
             </div>
             </div>
         <div className='md:w-1/2  mt-3'>
-         <img src={image} className=" " alt="" />
+         <img src={image1} className=" " alt="" />
            </div>
          </div>
      </section>
