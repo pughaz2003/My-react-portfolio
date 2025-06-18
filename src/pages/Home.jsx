@@ -1,5 +1,5 @@
 import image from "../assets/my.png"
-import image1 from "../assets/1.png"
+
 import { useTypewriter, Cursor} from 'react-simple-typewriter'
 
 export default function Home() {
